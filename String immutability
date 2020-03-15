@@ -2,4 +2,4 @@
 ### String constant pool. Complier looks if the obj is present in the pool, if yes, provides value to the new reference.
 ### String str = "Original String"; str = "Changed"; => The value gets changed and the original string is lost as it has no
     reference.
-### str.concat("Append"); => str still contains original value, as no reference is provided.
+### str.concat("Append"); => str still contains original value, as no reference is provided for the new string.
