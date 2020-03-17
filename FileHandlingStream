@@ -1,0 +1,5 @@
+## An Idea of Java I/O Stream
+    Stream literally means continuous flow, and I/O stream in Java refers to the flow of bytes between an input source 
+    and output destination.
+
+## FileReader and FileWriter are the classes
