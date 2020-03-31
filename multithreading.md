@@ -9,3 +9,7 @@
              
 ## Thread safe
    A class is called thread safe if multiple threads cannot access the same block at the same time.(synchronised keyword)
+
+## Start method
+   We call start instead of run coz, the start method creates a separate call stack for the current thread running.
+   The result of this method is two threads that are running concurrently: the current thread (which returns from the call to      the start method) and the other thread (which executes its run method)
