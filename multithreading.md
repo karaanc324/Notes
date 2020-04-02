@@ -13,3 +13,6 @@
 ## start()
    We call start instead of run coz, the start method creates a separate call stack for the current thread running.
    The result of this method is two threads that are running concurrently: the current thread (which returns from the call to      the start method) and the other thread (which executes its run method)
+
+## why synchronised bock?
+   Since java is multithreaded language, synchronization is a good way to achieve mutual exclusion on shared resource(s).
