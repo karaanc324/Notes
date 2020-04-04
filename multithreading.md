@@ -16,3 +16,9 @@
 
 ## why synchronised bock?
    Since java is multithreaded language, synchronization is a good way to achieve mutual exclusion on shared resource(s).
+
+## Thread pool
+   A thread pool reuses previously created threads to execute current tasks and offers a solution to the problem of thread        cycle overhead and resource thrashing. Since the thread is already existing when the request arrives, the delay introduced      by thread creation is eliminated, making the application more responsive.
+
+## CountDownLatch
+   CountDownLatch is used to make sure that a task waits for other threads before it starts. To understand its application,      let us consider a server where the main task can only start when all the required services have started.
